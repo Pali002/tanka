@@ -12,7 +12,7 @@ public class Restapi {
         String endpoint = "employees";
         String urlStr = host + endpoint;
         String res = httpClient.get(urlStr);
-        System.out.println(res);
+        // System.out.println(res);
         return res;
     }
     

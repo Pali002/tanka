@@ -12,7 +12,12 @@ public class MainConsole {
     
     public void printEmployees(ArrayList<Employee> emps) {
         for(Employee emp: emps) {
-            System.out.println(emp.getName());
+            System.out.printf (
+                "|%15s|%15s|%15s|\n",
+                emp.getName(),
+                emp.getCity(),
+                emp.getSalary()
+            );
         }
     }
 }
