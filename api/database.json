@@ -1,0 +1,19 @@
+{
+    "employees": [
+        {
+            "name": "Pali",
+            "city": "Isaszeg",
+            "salary": 652
+        },
+        {
+            "name": "Peti",
+            "city": "Isaszeg",
+            "salary": 542
+        },
+        {
+            "name": "Kati",
+            "city": "Szeged",
+            "salary": 325
+        }
+    ]
+}
